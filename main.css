@@ -1,0 +1,151 @@
+body{
+    height: 100%;
+}
+.slideshow-image
+{
+    width:100vw;
+    height:90vh;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+.slideshow{
+    width:100%;
+}
+  
+.hero-text{
+    background-color: #0003;
+    padding: 2rem 1rem;
+    border-radius: 3rem;
+}
+.contact{
+    background-color: rgba(0, 0, 7, 0.962);
+}
+.pic{
+    max-width: 130px;
+}
+
+
+
+:root {
+    --card_width: 360px;
+    --row_increment: 10px;
+    --card_border_radius: 16px;
+    --card_small: 26;
+    --card_medium: 33;
+    --card_large: 45;
+} 
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ .pin_container {
+    margin: 5px;
+    position:relative; 
+
+    display: grid;
+     grid-template-columns: repeat(auto-fill, var(--card_width));
+    grid-auto-rows: var(--row_increment);
+    justify-content: center;
+
+    /* background-color: black;  */
+}
+
+ .card {
+    padding: 0;
+    margin: 15px 10px;
+    border-radius: var(--card_border_radius);
+    /* background-color: red; */
+} 
+
+ .card_small {
+    grid-row-end: span var(--card_small);
+}
+
+.card_medium {
+    grid-row-end: span var(--card_medium);
+}
+
+.card_large {
+    grid-row-end: span var(--card_large);
+}  
+.qwe {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: cover;
+    border-radius: var(--card_border_radius);
+    
+}
+.qwe:hover{
+    transform: scale(1.1);
+}
+.con {
+    display: flex; justify-content: center; align-items: center;
+    position: relative;
+    margin: 10%;
+    /* top: -30px; */
+    
+}
+.conCard {
+    margin: 5px;
+}
+
+.formCus{
+    width: 400px;
+}
+.bi-download{
+    right: 5%;
+    bottom: 5%;
+}
+
+@media screen and (max-width: 500px) {
+    .pic {
+      max-width: 70px;
+    }
+    .formCus{
+        width: 300px;
+    }
+  }
+.slideshow2
+{
+    width:80%;
+    height:80%;
+    align-content: center;
+}
+.slideshow-image1
+{
+    width:30vw;
+    height:30vw;
+
+    object-fit: cover;
+    border-radius: 50% ;
+    
+}
+.slideshow1{
+    width:100%;
+    align-items: center;
+    margin: auto;
+  width: 50%;
+  
+  padding: 10px;
+}
+.center{
+    text-align: center;
+
+}
+.abouttext{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #415aa7;
+    padding-top: 100px;
+}
+.textasd{
+    font-size:1.5rem;
+    padding-top: 100px;
+    color: aliceblue;
+}
+.about{
+    height: 600px;
+}
